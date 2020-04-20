@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background-color: #1a52f9;
+	background-image: linear-gradient(19deg,#1a52f9 0%,#b721ff 84%);
+}
+a{
+	text-decoration: none;
+	color: white;
+
+}
+nav{
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+}
+.logo{
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 500;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 20px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+.active, ul li:hover{
+	border-top: 2px solid #5dade2;
+	border-bottom: 2px solid #5dade2;
+
+}
+.contact_btn{
+	background-color: #d465ef;
+	padding: 14px 26px;
+	font-weight: 500;
+	text-transform: capitalize;
+	font-size: 20px;
+	border:1px solid transparent;
+	border-radius: 10px;
+}
+.contact_btn:hover{
+	background: linear-gradient( to bottom,#615cfd 0%,#d465ef 100%);
+}
+.center_content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%,-50%);
+	text-align: center;
+}
+.center_content h1{
+	color: #d465ef;
+	font-weight: 700;
+	font-size: 70px;
+	text-transform: capitalize;
+	margin-bottom:10px; 
+}
+.center_content h2{
+	font-size: 25px;
+	font-weight: 200px;
+	color: yellow;
+	text-transform: capitalize;
+}
+.center_content h2:before{
+	content: "";
+	
+	width: 100px;
+	height: auto;
+	border:2px solid yellow;
+	position: absolute;
+	left: 50px;
+	bottom: 10px;
+
+}
+header:before{
+	content: " ";
+	left: 0px;
+	bottom: 0px;
+	width: 520px;
+	height: 550px;
+	position: absolute;
+	background-image: url('D:/my projects/images/pp.jpg');
+	border-radius: 50%;
+	opacity: 0.8;
+	background-size: 100% 100%;
+	}
+	.social_network{
+		width: 100px;
+		height: auto;
+		position: absolute;
+		right: 0;
+		top: 40%;
+
+	}
+	.social_network img{
+		width: 40px;
+		height: 40px;
+		/*border-right:  50%;*/
+		border-radius: 30px;
+		margin: 10px;
+		background-color:#d465ef; 
+	}
+	.social_network img:hover{
+		border-radius: 50%;
+		border-color: red;
+	}
+
+  .social_network img:nth-child(even){
+		margin: 40px 0px;
+	}
+
+
+
+
+
+
+	/*//////hello i am asif suffering from sick but i dont know 
+	i feel not well 
+	my body is very hot feeling jalan in hindi i dont know what to do 
+	i think i should checked up by doctor atleast once 
+	my gardan is kich kich koring 
+	truly, i am saying now i am very dargaya hai 
+	my neck nash is paining with head ..........
+	hello buddy how are u alll
+
+   i think i should publish a educational purpose website 
+   which remain :-
+
+
+   home page.html
+			  navbar with search option
+			  about us 
+			  contact us 
+			  why us 
+			   ,
+
+		
+   1. java tutorials
+   2. networking tutorials 
+   3. web technology
+   4. web development 
+   5. PROJECT :-> (funny and technical project) 
+   6. database managment system ... 
+   7.
+
+	////*/
